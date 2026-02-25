@@ -1,0 +1,32 @@
+{
+  "name": "Pixel Perfect Photo Gallery - Copilot Workshop",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "forwardPorts": [
+    3000
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "Next.js App",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "cd pixelperfect-gallery && npm install && npm run dev",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "typescript.tsdk": "node_modules/typescript/lib"
+      }
+    }
+  }
+}
