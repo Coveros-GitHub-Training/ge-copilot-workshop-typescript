@@ -38,6 +38,9 @@ export default function RootLayout({
                 <Link href="/gallery" className="nav-link">
                   Gallery
                 </Link>
+                <Link href="/trending" className="nav-link">
+                  Trending
+                </Link>
                 <Link href="/upload" className="nav-link">
                   Upload
                 </Link>
