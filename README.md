@@ -6,7 +6,7 @@ Welcome to the **GitHub Copilot Workshop**! This comprehensive workshop teaches 
 
 This hands-on lab is designed to give developers practical experience using **GitHub Copilot** across all phases of the SDLC. Built around **PixelPerfect Gallery**, a professional photo gallery and portfolio application, you'll explore how GitHub Copilot can improve developer productivity, code quality, and collaboration.
 
-### What You'll Learn
+### What You'll Learnsdfgsfgjh
 
 Through guided, real-world exercises, you will:
 - Understand GitHub Copilot's role across all phases of the SDLC
