@@ -314,11 +314,22 @@ body {
   background-color: #fed7aa;
 }
 
+.icon-container-red {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fee2e2;
+}
+
 @media (prefers-color-scheme: dark) {
   .icon-container-blue { background-color: #1e3a8a; }
   .icon-container-green { background-color: #14532d; }
   .icon-container-purple { background-color: #581c87; }
   .icon-container-orange { background-color: #9a3412; }
+  .icon-container-red { background-color: #7f1d1d; }
 }
 
 /* Hover Patterns */

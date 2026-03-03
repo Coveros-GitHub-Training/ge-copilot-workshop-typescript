@@ -1,4 +1,4 @@
-import { Users, Plus, Eye, Edit, Trash2, Settings } from "lucide-react";
+import { Users, Plus, Eye, Edit, Trash2, Settings, ShieldAlert } from "lucide-react";
 import Link from "next/link";
 import { Hero, SectionContainer, SectionTitle, FeatureCard, StatsGrid } from "@/components/ui";
 import { dashboardStats, recentGalleries } from "@/lib/mock-admin-data";
@@ -18,7 +18,7 @@ export default function AdminPage() {
 
         {/* Quick Actions */}
         <SectionTitle title="Quick Actions" />
-        <div className="grid md:grid-cols-3 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           <Link href="/upload" className="block">
             <FeatureCard 
               icon={Plus}
@@ -41,6 +41,15 @@ export default function AdminPage() {
             description="Configure your portfolio, branding, and preferences"
             iconColor="text-purple-600"
           />
+
+          <Link href="/admin/security" className="block">
+            <FeatureCard
+              icon={ShieldAlert}
+              title="Security"
+              description="Review the audit log, active sessions, and security alerts"
+              iconColor="text-red-600"
+            />
+          </Link>
         </div>
 
         {/* Galleries Table */}
